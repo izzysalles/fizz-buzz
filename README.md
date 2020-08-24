@@ -1,21 +1,15 @@
-# FizzBuzz
+<p align="center">
+  <img ![fizzbuzz](img src="https://user-images.githubusercontent.com/55500140/91077041-ca8b0980-e616-11ea-9a7e-efea34698b57.png")/>
+</p>
 
-**TODO: Add description**
+## Introduction
 
-## Installation
+Fizz buzz is a group word game for children to teach them about division. This is a short project from a Elixir's [Udemy course](https://www.udemy.com/course/elixir-e-phoenix-do-zero) :books:
+ 
+ ## How it works
+ 
+- For each multiple of 3, print "Fizz" instead of the number. 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+- For each multiple of 5, print "Buzz" instead of the number. 
 
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fizz_buzz](https://hexdocs.pm/fizz_buzz).
-
+- For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
